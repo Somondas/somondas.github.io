@@ -71,6 +71,7 @@ div.center{
     border-radius: 100%;
 }
 .button img{
+    transition: border 200ms;
     box-sizing: border-box;
 }
 .container{
