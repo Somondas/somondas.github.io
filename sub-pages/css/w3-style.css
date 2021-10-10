@@ -419,6 +419,8 @@ div.tricks{background-color: #add8e6; border-radius: 10px;box-shadow: 0 4px 8px 
 .short-para a{color: #2196F3;}
 .short-para a:hover{text-decoration: underline;}
 #about p{margin: 30px; color: gray;font-size: 18px; font-weight: lighter;font-family: cursive;}
+.mail{color: #00bcd4;}
+.mail:hover{text-decoration: underline;}
 
 
 
