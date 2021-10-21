@@ -237,13 +237,10 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 .w3-border-pale-yellow,.w3-hover-border-pale-yellow:hover{border-color:#ffffcc!important}.w3-border-pale-blue,.w3-hover-border-pale-blue:hover{border-color:#e7ffff!important}
 /* ------x--w3-css-------x---- */
 /* ----------global---------- */
-html{
-    scroll-behavior: smooth;  
-}
 body, html{
     margin: 0%;
     display: block;
-    
+       
 }
 a{
     text-decoration: none;
@@ -251,7 +248,6 @@ a{
 h1{
     margin-bottom: 10px;
 }
-
 /* ----x-----global-----x------ */
 .navigation ul{
     list-style-type: none;
@@ -330,7 +326,7 @@ div.center{
 }
 .sidenav {
     height: 100%; /* Full-height: remove this if you want "auto" height */
-    width: 295px; /* Set the width of the sidebar */
+    width: 0%; /* Set the width of the sidebar */
     position: fixed; /* Fixed Sidebar (stay in place on scroll) */
     z-index: 1; /* Stay on top */
     top: 103px; /* Stay at the top */
@@ -338,12 +334,15 @@ div.center{
     background-color: darkblue; /* Black */
     overflow-x: hidden; /* Disable horizontal scroll */
     padding-top: 20px;
+    transition: width 400ms;
 }
 .show-sidebar {
-    transform: translate(0);}
+    width: 275px;} /* New*/
     
 
-
+.close-crs{
+    visibility: hidden;
+}
 /* The navigation menu links */
 .sidenav a {
     padding: 6px 8px 6px 16px;
@@ -363,7 +362,7 @@ div.center{
     .navigation li{padding: 10px 10px;}
     .navigation ul{margin-right: 10px;}
     .logo img{height: 34px; width: 34px;}
-    .sidenav{top: 93px;width: 100%; }
+    .sidenav{top: 93px;width: 0%; } /* New*/
     .sidenav a{padding: 5px 10px; font-size: 15px;  transition: margin 500ms;}
     .sidenav a:hover{margin-left: 15px;}
     .content img{width: 100%; height: auto;}
@@ -382,13 +381,9 @@ div.center{
     .short-para h2{font-size: 25px; font-weight: lighter;}
     #about p{margin: 5px; margin-top: 200px; color: gray;font-size: 18px; font-weight: lighter;font-family: cursive;}
     #about{width: 100%; height: auto;margin-top: 400px;box-shadow: none;}
+    .show-sidebar{width: 100%; text-align: center;} /* New*/
     .close-crs{visibility: visible;}
-    .sidenav-u{top: 80px;width: 0%; }
-    .sidenav-u a{padding: 5px 10px; font-size: 15px;  transition: margin 500ms;}
-    
-    .close-crs{visibility: visible;}
-    .show-sidebar {width: 100%;} /* New*/
-
+    .bst-val-prds img{width: 100%; height: auto;display: flex; display: inline-flex;}
 
 }
 /* -------x--------Responsive-------x------ */
@@ -427,41 +422,44 @@ div.tricks{background-color: #add8e6; border-radius: 10px;box-shadow: 0 4px 8px 
 .short-para a{color: #2196F3;}
 .short-para a:hover{text-decoration: underline;}
 #about p{margin: 30px; color: gray;font-size: 18px; font-weight: lighter;font-family: cursive;}
-.mail{color: #00bcd4;}
-.mail:hover{text-decoration: underline;}
-
-
-
-.sidenav-u {
-    height: 100%; /* Full-height: remove this if you want "auto" height */
-    width: 0%; /* Set the width of the sidebar */
-    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
-    z-index: 1; /* Stay on top */
-    top: 103px; /* Stay at the top */
-    left: 0;
-    background-color: darkblue; /* Black */
-    overflow-x: hidden; /* Disable horizontal scroll */
-    padding-top: 20px;
-    transition: width 400ms;
+.prdct-name{text-align: left;}
+/* .slideshow{margin:auto !important; height: 300px;background-image: linear-gradient(#2193b0 , #6dd5ed);} */
+/* .slideshow img{width: auto; height: auto;} */
+.img-magnifier-container a{
+    color: #2196F3;
 }
-
-.sidenav-u a {
-    padding: 6px 8px 6px 16px;
-    text-decoration: none;
-    font-size: 18px;
-    color: #a8b4b4;
-    display: block;
-}
-.sidenav-u a:hover {
-    color: #08f8f8;
+.img-magnifier-container a:hover{
+    color: #2196F3;
     text-decoration: underline;
 }
-.show-sidebar {width: 275px;} /* New*/
-.close-crs{visibility: hidden;}
-.buy-link{color: #2196F3; font-weight: bold;}
-.buy-link:hover{text-decoration: underline;}
+.fake-ads{
+    width: 100%;
+    height: auto;
+    background-image: linear-gradient(#06beb6 , #48b1bf);
+    display: grid;
+    display: inline-block;
+    border-radius: 40px 0;
 
-
+}
+.fake-ads p {
+    margin: 20px;
+}
+.fake-ads a{
+    color: white;
+}
+.fake-ads a:hover{
+    color: white;
+    text-decoration: underline;
+}
+.bst-val-prds{text-align: left; margin-bottom: 50px; margin-top: 50px;}
+.bst-val-prds li{text-align: left;}
+.bst-val-prds img{width: 600px; height: auto;display: flex; display: inline-flex;}
+.bst-val-prds a{color: #2196F3; font-weight: bold;}
+.bst-val-prds a:hover{text-decoration: underline;}
+.heading-bst{
+    text-align: center;
+    margin-bottom: 100px;
+}
 
 
 
