@@ -461,6 +461,9 @@ div.tricks{background-color: #add8e6; border-radius: 10px;box-shadow: 0 4px 8px 
     text-align: center;
     margin-bottom: 100px;
 }
+.mail:hover{
+    text-decoration: underline;
+}
 
 
 
