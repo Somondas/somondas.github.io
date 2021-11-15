@@ -104,5 +104,13 @@ li:hover{
     .center-div p{font-size: 25px;}
     button{font-size: 20px !important;}
 }
+@media only screen and (max-width: 300px){
+	li{font-size: 10px;padding: 3px;}
+    .navi{left: 30%;}
+    .center-div{width: 85%; height: 80vh;}
+    .center-div h1{font-size: 30px;}
+    .center-div p{font-size: 18px;}
+    button{font-size: 15px !important;}
+}
 
 
