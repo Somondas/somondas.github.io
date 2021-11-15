@@ -96,21 +96,27 @@ li:hover{
 
     
 }
+@media only screen and (max-width: 1200px){
+    .navi{left: 300px;}
+}
 @media only screen and (max-width: 600px){
 	li{font-size: 15px;padding: 8px;}
-    .navi{left: 40%;}
+    .navi{left: auto; right: auto;}
     .center-div{width: 85%; height: 80vh;}
     .center-div h1{font-size: 60px;}
     .center-div p{font-size: 25px;}
     button{font-size: 20px !important;}
 }
 @media only screen and (max-width: 500px){
-	li{font-size: 18px !important;padding: 10px;}
-    .navi{left: 30%;}
+	li{font-size: 15px !important;padding: 10px;}
+    .navi{left: auto; right: auto;}
     .center-div{width: 85%; height: 80vh;}
     .center-div h1{font-size: 40px !important;}
     .center-div p{font-size: 18px;}
     button{font-size: 15px !important;}
+}
+@media only screen and (max-width: 400px){
+    .navi{left: auto; right: auto;}
 }
 
 
