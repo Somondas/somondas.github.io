@@ -69,6 +69,35 @@ button:hover{
     
 
 }
+.wrapper {
+    height: auto;
+    /*This part is important for centering*/
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+  }
+  
+  .typing-demo {
+    width: 70%;
+    animation: typing 1.5s steps(15), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-family: monospace;
+    font-size: 2em;
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0
+    }
+  }
+      
+  @keyframes blink {
+    50% {
+      border-color: transparent
+    }
+  }
 .navi{
     position: absolute;
     float: right;
@@ -100,6 +129,9 @@ li:hover{
     .navi{left: 300px;}
 }
 @media only screen and (max-width: 600px){
+    .typing-demo{
+        width: 100%;
+    }
 	li{font-size: 15px;padding: 8px;}
     .navi{left: auto; right: auto;}
     .center-div{width: 85%; height: 80vh;}
@@ -108,6 +140,9 @@ li:hover{
     button{font-size: 20px !important;}
 }
 @media only screen and (max-width: 500px){
+    .typing-demo{
+        width: 100%;
+    }
 	li{font-size: 15px !important;padding: 10px;}
     .navi{left: auto; right: auto;}
     .center-div{width: 85%; height: 80vh;}
@@ -116,6 +151,9 @@ li:hover{
     button{font-size: 15px !important;}
 }
 @media only screen and (max-width: 400px){
+    .typing-demo{
+        width: 100%;
+    }
     .navi{left: auto; right: auto;}
 }
 
