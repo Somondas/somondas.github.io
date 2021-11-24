@@ -1,49 +1,154 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="stylesheet" href="css/w3-style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <title>LearnComp | Support</title>
+    <style>
+        *{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none !important;
     
+}
+body{
+    background-color: #eec0c6;
+    background-image: linear-gradient(315deg, #eec0c6 0%, #7ee8fa 74%);
+}
+.navigation{
+    background-color: #20bf55;
+background-image: linear-gradient(315deg, #20bf55 0%, #01baef 74%);
+}
+
+.navigation ul{
+    list-style-type: none;
+    margin: 0%;
+    padding: 0%;
+    overflow: hidden;
     
+}
+
+.navigation .c-s-a{
+    display: inline;
+    float: right;
+    padding: 15px 20px 15px 20px;
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    transition: background-color 500ms; 
+    border-radius: 8px 0px; 
+}
+.navigation .c-s-a a{
+    color: white;
+    text-decoration: none;
+   
+}
+.logo{
+    display: inline;
+    color: #fff;
+    padding: 15px 20px 15px 20px;
+    font-size: x-large;
+}
+.c-s-a:hover{
+    background-color: #47c6e9;
+}
+
+.main-div {
+    width: 100%;
+    height: 92vh;
+    /* background-color: #6983aa; */
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* text-align: center; */
+    /* background-color: #eec0c6;
+    background-image: linear-gradient(315deg, #eec0c6 0%, #7ee8fa 74%); */
+
+  }
+  .center-div {
+    width: 70%;
+    height: 75vh;
+    background-color: #f4f4f4;
+    border-radius: 25px;
+    transition: 1s box-shadow;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    
+
+  
+}
+@keyframes opa {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+.center-div:hover{
+    box-shadow: 5px 5px 25px -5px rgba(0, 0, 0, 0.5);
+
+}
+.about{
+    font-size: 18px;
+    color: grey !important;
+    font-family: cursive;
+    animation: opa 1.5s;
+}
+@media only screen and (max-width:800px){
+    .center-div{
+        width: 90%;
+        height: 60vh;
+
+    }
+    .about{
+        margin: 3% !important;
+    }
+    .navigation .c-s-a{
+        padding: 8px 10px !important ;}
+        .logo{
+            padding: 8px 10px;
+            font-size: 18px;
+            margin-left: 0%;
+        }
+    .main-div{
+        height: 100vh;
+    }
+}
+
+
+
+    </style>
 </head>
 <body>
-    <div class="nav" style="background-image: url(photos/bg2.jfif);" id="top">
-        <div class="logo">
-            <img src="photos\logo copy.png" alt="" width="45px" height ="45px">
-        </div>
-            
-        <div class="navigation" id="sidebar">
-            <ul>
-                <li><a href="about.html"><b>ABOUT</b> </a></li>
-                <li><a href="contact-us.html"><b>CONTACT US</b></a></li>
-                <li><a href="#"><b>SUPPORT</b></a></li>
-            
-            </ul>
-        </div>
-    </div> 
-    <div style="text-align: center;">
-        <div class="w3-center w3-container" id="about" style="top: 50%;left: 50%;transform: translate(-50% , -50%);position: absolute; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
-            <p>Want to support? If you like the products I recommended for you on my <a class="mail" href="best-value-products.html">Best Value Products</a> Page then to buy the products please use the links I provided on my site and please share my website link with everyone. It helps me to earn and motivates me to write more about computers and tech.</p>
-            
-            
+    <nav class="navigation ">
+        <ul>
+            <li class="logo">LearnComp</li>
+            <a href="about.html"><li class="c-s-a" style="color: white;">ABOUT</li></a>
+            <a href="contact-us.html"><li class="c-s-a" style="color: white;">CONTACT US</li></a>
+            <a href="#"><li class="c-s-a" style="color: white;">SUPPORT</li></a>
+        </ul>
+    </nav>
+    <div class="main-div">
+        <div class="center-div">
+            <div class="mx-5 text-center about text-dark">
+                <p>Want to support? If you like the products I recommended for you on my <a class="mail" href="best-value-products.html">Best Value Products</a> Page then to buy the products please use the links I provided on my site.  It will save your time and also help me to earn.
+                </p>
+                    
+                    
+            </div>
+            </div>
         </div>
     </div>
-
-
-    <script src="script/script.js"></script>
-
 </body>
 </html>
