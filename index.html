@@ -38,8 +38,10 @@
     />
 
 </head>
-<body>
-    
+<body onload="loading()">
+  <div id="loader">
+    <img src="preloader.gif" alt="" width="290px" height="240px">
+  </div>
         
     
     <div class="main-div">
@@ -69,7 +71,10 @@
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script>
-        
+       const loader = document.getElementById("loader")
+        const loading = () =>{
+          loader.style.display = "none"
+        } 
      
        
     </script>
