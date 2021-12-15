@@ -1,346 +1,162 @@
-<html lang="en">
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/new_style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Mulish&family=Nunito:wght@300&family=Open+Sans:wght@300&family=Poppins:wght@300&family=Quicksand:wght@300;400&family=Roboto:wght@500&family=Shippori+Antique+B1&display=swap" rel="stylesheet">
+    <meta charset="utf-8">
     <title>Hardware | Ports</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="stylesheet" href="css/w3-style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400&display=swap"
-      rel="stylesheet"
-    />
-    <script
-      async
-      src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2589301344259726"
-      crossorigin="anonymous"
-    ></script>
   </head>
   <body>
-    <div class="nav" style="background-image: url(photos/bg2.jfif)" id="top">
-      <div class="logo">
-        <img src="photos\logo copy.png" alt="" width="45px" height="45px" />
-      </div>
+    <nav class="navbar navbar-expand-lg navbar-light" style=" background-color: #20bf55;
+background-image: linear-gradient(315deg, #20bf55 0%, #01baef 74%); ">
+  <div class="container-fluid navigation">
+    <a class="navbar-brand logo" href="#">LearnComp</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0 nav_eff">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" style="color: #fff !important" href="#">SUPPORT</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" style="color: #fff !important" href="#">CONTACT US</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" style="color: #fff !important" href="#">ABOUT</a>
+        </li>
 
-      <div class="navigation" id="sidebar">
-        <ul>
-          <li>
-            <a href="about.html"><b>ABOUT</b> </a>
-          </li>
-          <li>
-            <a href="contact-us.html"><b>CONTACT US</b></a>
-          </li>
-          <li>
-            <a href="support.html"><b>SUPPORT</b></a>
-          </li>
-        </ul>
-      </div>
-    </div>
-    <div class="w3-container" style="background-color: #001540; padding: 10px">
-      <button
-        style="
-          background-color: #001540;
-          border: 2px solid #08f8f8;
-          border-radius: 20%;
-        "
-        onclick="minimize()"
-      >
-        <a href="#"
-          ><img
-            src="photos/Hamburger_icon.png"
-            alt=""
-            width="30px"
-            height="30px"
-        /></a>
-      </button>
-      <button
-        style="
-          background-color: #001540;
-          border: 2px solid #08f8f8;
-          border-radius: 20%;
-          margin-left: 20px;
-        "
-      >
-        <a href="category.html"
-          ><img src="icons/home.png" alt="" width="30px" height="30px"
-        /></a>
-      </button>
-    </div>
-    <div
-      class="sidenav"
-      id="min"
-      style="display: none; background-image: url(photos/bg2.jfif)"
-    >
-      <a href="#">Ports</a>
-      <a href="hardware-pg-2.html">Computer Memory</a>
-      <a href="hardware-pg-3.html">Display Devices</a>
-      <a href="hardware-pg-4.html">Motherboard</a>
-    </div>
-    <div class="content" id="😶">
-      <div class="bk-2-tp">
-        <button id="bk-tp">
-          <a href="#top"
-            ><img src="icons/Back to top.png" alt="" width="45px" height="45px"
-          /></a>
-        </button>
-      </div>
-      <h1 class="heading"><b>Ports</b></h1>
-      <br />
-      <br />
-      <div class="fst-para">
-        <img
-          src="photos/hardware-ports.jpg"
-          alt="Ports"
-          width="454px"
-          height="280px"
-        />
-        <p>
-          Have you ever wonder which port is used for what purpose. There are so
-          many holes of different shapes in a computer or a laptop. So I am
-          going to explain which hole I mean ports is used for what purpose ;).
-        </p>
-        <div class="tbe-content">
-          <h3>In this section:</h3>
-          <p><a href="#topic1">LAN port</a></p>
-          <p><a href="#topic2">VGA port</a></p>
-          <p><a href="#topic3">HDMI port</a></p>
-          <p><a href="#topic4">USB-C port</a></p>
-          <p><a href="#topic5">Security slot</a></p>
-          <p><a href="#topic6">USB port</a></p>
-        </div>
-      </div>
-      <br />
-      <div class="🤦‍♂️" id="topic1">
-        <h1><b>LAN port</b></h1>
-        <br />
 
-        <img src="photos/LAN.jfif" alt="LAN" class="cen" />
+    </div>
+  </div>
+</nav>
+<div class="sidenav" id="min" style="background-color: #5de6de;
+         background-image: linear-gradient(315deg, #5de6de 0%, #b58ecc 74%);">
+          <button id="close-cross" class="close-crs" onclick="closeCross()" style="background-color: transparent;border: none; cursor: pointer;float: right;margin-right: 20px;"><img src="icons/close-cross.png" alt="" width="25px" height="25px"></button>
+          <br>
+          <a href="hardware-pg-1.html">Ports</a>
+          <a href="hardware-pg-2.html">Computer Memory</a>
+          <a href="hardware-pg-3.html">Display Devices</a>
+          <a href="hardware-pg-4.html">Motherboard</a>
+          <a href="#">Keyboard</a>
 
-        <p style="margin-left: auto">
-          Let's talk about the LAN port. The LAN port or the ethernet port is
-          used for wired internet connection which uses a LAN(Local area
-          network) cable. But some computers do not have these LAN ports because
-          it is a very bulky port which makes the laptop thicker. So these ports
-          are not in-build in many computers. So if you don't have a LAN port on
-          your machine, you can use a USB Network Adapter.
-        </p>
-      </div>
-      <div
-        class="w3-card-4"
-        style="width: 400px; text-align: center; float: right"
-      >
-        <img
-          src="photos/usb adapter.jfif"
-          alt="USB network Adapter"
-          class="cen"
-        />
-        <div class="w3-container w3-center">
-          <p>USB Network Adapter</p>
-        </div>
-        <p>You can buy this USB Network Adapter from here: <a class="buy-link" target="_blank" style="color: rgb(62, 62, 226);" href="https://www.amazon.in/gp/product/B00FZNAW8M/ref=as_li_tl?ie=UTF8&camp=3638&creative=24630&creativeASIN=B00FZNAW8M&linkCode=as2&tag=somondas69-21&linkId=453d72e4b7b7e8b0b54720784beec284">Quantum QHM8106 USB to RJ45 Ethernet LAN Adapter (White)</a> </p>
-      </div>
+
+</div>
+    <div class="btns my-4">
+      <button type="button" class="btn btn-primary mx-2"><a href="category.html"> <img src="icons/home.png" alt=""></a></button>
+      <button type="button" class="btn btn-primary mx-2 link-btn"><img src="icons/menu.png" alt=""></button>
+    </div>
+    <div class="bk-2-tp">
       
-      <br />
-
-      <div class="trd-para" id="topic2">
-        <center>
-          <h1><b>VGA Port</b></h1>
-        </center>
-        <div
-          class="w3-card-4"
-          style="
-            width: 300px;
-            text-align: center;
-            float: left;
-            margin-right: 20px;
-          "
-        >
-          <img
-            src="photos/download.jfif"
-            alt="USB network Adapter"
-            class="cen"
-          />
-          <div class="w3-container w3-center">
-            <p>VGA Port</p>
-          </div>
-        </div>
-        <p>
-          VGA(Video Graphics Array) port is used for display devices and is used
-          to connect to a computer or a laptop to a monitor, projector, or TV
-          using the VGA cable.VGA is an analog and video interface.
-        </p>
-      </div>
-      <div class="frd-para" id="topic3">
-        <center>
-          <h1><b>HDMI Port</b></h1>
-        </center>
-        <div
-          class="w3-card-4"
-          style="
-            width: 300px;
-            text-align: center;
-            float: right;
-            margin-right: 20px;
-          "
-        >
-          <img src="photos/hdmi.jfif" alt="USB network Adapter" class="cen" />
-          <div class="w3-container w3-center">
-            <p>HDMI Port</p>
-          </div>
-        </div>
-        <p>
-          HDMI(High Definition Multimedia Interface) port is used to receive and
-          transmit both audio and video signals from an array of source devices
-          through to a number of display monitors. That means, we can use HDMI
-          cable to transmit both audio and video to a secondary screen.
-        </p>
-        <p>
-          <b><u>Difference between VGA and HDMI</u></b>
-        </p>
-        <p>
-          VGA is an analog interface while HDMI is a digital interface. VGA is a
-          video interface which means we can only use it for video transmission
-          while HDMI includes both the audio and video. Devices with the VGA
-          interface have lower video resolution compared to modern HDMI devices.
-          Also, VGA ports are very bulky.
-        </p>
-      </div>
-      <div class="fiv-para" id="topic4">
-        <center>
-          <h1><b>USB-C Port</b></h1>
-        </center>
-        <div
-          class="w3-card-4"
-          style="
-            width: 330px;
-            text-align: center;
-            float: left;
-            margin-right: 20px;
-          "
-        >
-          <img src="photos/USB-C.jfif" alt="USB network Adapter" />
-          <div class="w3-container w3-center">
-            <p>USB-C Port</p>
-            
-          </div>
-          
-        </div>
-        <p>
-          Many computers don't have this type of port, it is mainly used in
-          Apple computers. It features a new, smaller connector shape that's
-          reversible so it's easier to plug in. USB-C cables can carry
-          significantly more power, so they can be used to charge larger devices
-          like laptops. They also offer up to double the transfer speed of USB 3
-          at 10 Gbps.
-        </p>
-      </div>
-      <div class="six-para" id="topic5">
-        <center>
-          <h1><b>Security Slot</b></h1>
-        </center>
-        <div
-          class="w3-card-4"
-          style="
-            width: 290px;
-            text-align: center;
-            float: right;
-            margin-right: 20px;
-            margin-left: 20px;
-          "
-        >
-          <img src="photos/security slot.jfif" alt="USB network Adapter" />
-          <div class="w3-container w3-center">
-            <p>Security Slot</p>
-          </div>
-        </div>
-        <p>
-          Have you ever notice an oval hole in the corner of the laptop. I had
-          no idea that it was a security slot I thought it was a keychain
-          holder. But then I found that it was a security slot also called
-          Kensington lock which uses a Kensington cable <i>(Fig: 1.1)</i> to
-          lock the laptop to a table or a chair.
-        </p>
-
-        <div
-          class="w3-card-4"
-          style="
-            width: 290px;
-            text-align: center;
-            float: left;
-            margin-right: 20px;
-            margin-left: 20px;
-          "
-        >
-          <img src="photos/kanisthon cable.jfif" alt="USB network Adapter" />
-          <div class="w3-container w3-center">
-            <p><i>Fig: 1.1</i> Kensington cable</p>
-          </div>
-        </div>
-        <p><u>How to use a Kensington cable?</u></p>
-        <p>
-          Suppose you are in a restaurant and you have an urgent phone or
-          nature's call and you have to go to pick up the call or to the
-          washroom to pick up nature's call, then you can plug in the Kensington
-          cable in the security slot and then tie it in a chair or a table.
-        </p>
-      </div>
-      <div class="six-para" id="topic6" style="padding-top: 150px">
-        <center>
-          <h1><b>USB Port</b></h1>
-        </center>
-        <div
-          class="w3-card-4"
-          style="
-            width: 330px;
-            text-align: center;
-            float: right;
-            margin-right: 20px;
-          "
-        >
-          <img src="photos/usb.jfif" alt="USB" />
-          <div class="w3-container w3-center">
-            <p>USB Port</p>
-          </div>
-        </div>
-        <p>
-          The USB interface connects low-speed external devices, such as
-          keyboard, mouse, hard disk drive, and scanner as well as high-speed
-          external devices, such as digital cameras and mobile phones. By using
-          a common USB interface, you can connect up to 127 devices at a time.
-          This interface transfers data at the speed of 480MB/s.
-        </p>
-        <br />
-        <br />
-        <br />
-      </div>
     </div>
-    <script
-      async
-      src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2589301344259726"
-      crossorigin="anonymous"
-    ></script>
-    <!-- responsive_ads_learncomp -->
-    <ins
-      class="adsbygoogle"
-      style="display: block"
-      data-ad-client="ca-pub-2589301344259726"
-      data-ad-slot="1002719851"
-      data-ad-format="auto"
-      data-full-width-responsive="true"
-    ></ins>
+    <div class="w-50 mx-auto con">
+        <h1 class="text-center display-3 my-5">Ports</h1>
+        <img src="photos/hardware-ports.jpg" alt=""class="img-fluid w-100 ">
+        <p class="mt-3 content">Have you ever wonder which port is used for what purpose. There are so many holes of different shapes in a computer or a laptop. So I am going to explain which hole I mean ports is used for what purpose ;).</p>
+        <div class="section  w-100 text-center d-flex flex-column display-6">
+          <p class="display-5" style="color: #fff;">In this section</p>
+          <hr class="w-100 " style="color: #fff !important; height: 10px;">
+          <a href="#topic1">LAN port</a>
+          <a href="#topic2">VGA port</a>
+          <a href="#topic3">HDMI port</a>
+          <a href="#topic4">USB-C port</a>
+          <a href="#topic5">Security slot</a>
+          <a href="#topic6">USB port</a>
+        </div>
+        <div>
+          <h1 class="text-center display-3 my-5" id="topic1">LAN port</h1>
+          <div class="img_div text-center">
+            <img src="photos/LAN.jfif" alt=""class="img-fluid ">
+          </div>
+          <p class="mt-3 content">Let's talk about the LAN port. The LAN port or the ethernet port is used for wired internet connection which uses a LAN(Local area network) cable. But some computers do not have these LAN ports because it is a very bulky port which makes the laptop thicker. So these ports are not in-build in many computers. So if you don't have a LAN port on your machine, you can use a USB Network Adapter.</p>
+          <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="photos/usb adapter.jfif" alt="Card image cap">
+            <div class="card-body">
+              <p class="card-text text-center">USB Network Adapter</p>
+            </div>
+          </div>
+        </div>
+       <div>
+        <h1 class="text-center display-3 my-5" id="topic2">VGA port</h1>
+        <div class="card float-start" style="width: 18rem;">
+          <img class="card-img-top" src="photos/download.jfif" alt="Card image cap">
+          <div class="card-body">
+            <p class="card-text text-center">VGA Port</p>
+          </div>
+        </div>
+        <p class="mt-3 content" >VGA(Video Graphics Array) port is used for display devices and is used to connect to a computer or a laptop to a monitor, projector, or TV using the VGA cable.VGA is an analog and video interface.</p>
+       </div>
+       <div>
+        <h1 class="text-center display-3 my-5" id="topic3">HDMI Port</h1>
+        <div class="card float-end" style="width: 18rem;">
+          <img class="card-img-top" src="photos/hdmi.jfif" alt="Card image cap">
+          <div class="card-body">
+            <p class="card-text text-center">HDMI Port</p>
+          </div>
+        </div>
+        <p class="mt-3 content">HDMI(High Definition Multimedia Interface) port is used to receive and transmit both audio and video signals from an array of source devices through to a number of display monitors. That means, we can use HDMI cable to transmit both audio and video to a secondary screen.</p>
+       </div>
+       <div>
+        <h2 class="text-center display-6 my-5 text-decoration-underline">Difference between VGA and HDMI</h2>
+          <p class="content mt-3">VGA is an analog interface while HDMI is a digital interface. VGA is a video interface which means we can only use it for video transmission while HDMI includes both the audio and video. Devices with the VGA interface have lower video resolution compared to modern HDMI devices. Also, VGA ports are very bulky.</p>
+       </div>
+       <div>
+         <h1 class="text-center display-3 my-5" id="topic4">USB-C Port</h1>
+         <div class="card float-start" style="width: 18rem;">
+          <img class="card-img-top" src="photos/USB-C.jfif" alt="Card image cap">
+          <div class="card-body">
+            <p class="card-text text-center">USB-C Port</p>
+          </div>
+        </div>
+         <p class="mt-3 content">Many computers don't have this type of port, it is mainly used in Apple computers. It features a new, smaller connector shape that's reversible so it's easier to plug in. USB-C cables can carry significantly more power, so they can be used to charge larger devices like laptops. They also offer up to double the transfer speed of USB 3 at 10 Gbps.</p>
+       </div>
+       <div>
+        <h1 class="text-center display-3 my-5" id="topic5">Security Slot</h1>
+        <div class="card float-end" style="width: 18rem;">
+          <img class="card-img-top" src="photos/security slot.jfif" alt="Card image cap">
+          <div class="card-body">
+            <p class="card-text text-center">Security Slot</p>
+          </div>
+        </div>
+        <p class="mt-3 content">Have you ever notice an oval hole in the corner of the laptop. I had no idea that it was a security slot I thought it was a keychain holder. But then I found that it was a security slot also called Kensington lock which uses a Kensington cable to lock the laptop to a table or a chair.</p>
+        
+       </div>
+       <div>
+        <h1 class="text-center display-3 my-5" id="topic5">USB Port</h1>
+        <div class="card float-start" style="width: 18rem;">
+          <img class="card-img-top" src="photos/security slot.jfif" alt="Card image cap">
+          <div class="card-body">
+            <p class="card-text text-center" id="topic6">USB Port</p>
+          </div>
+        </div>
+        <p class="mt-3 content">The USB interface connects low-speed external devices, such as keyboard, mouse, hard disk drive, and scanner as well as high-speed external devices, such as digital cameras and mobile phones. By using a common USB interface, you can connect up to 127 devices at a time. This interface transfers data at the speed of 480MB/s.</p>
+       </div>
+    </div>
+    <div class="w-50 mx-auto con my-5">
+      <button class="custom-btn  btn-13">Previous</button>
+      <button class="custom-btn  btn-13 float-end">Next</button>
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
     <script>
-      (adsbygoogle = window.adsbygoogle || []).push({});
-    </script>
-    <div class="nav-btn" style="text-align: center">
-      <button class="nxt"><a href="hardware-pg-2.html">NEXT</a></button>
-    </div>
-    <script src="script/script.js"></script>
+          const linkBtn = document.querySelector(".link-btn")
+          const menu = document.querySelector('.sidenav')
+
+
+          linkBtn.addEventListener("click", function (){
+              menu.classList.toggle("show-sidebar")
+          })
+
+          function closeCross(){
+             menu.classList.remove("show-sidebar")
+          }
+        </script>
   </body>
 </html>
