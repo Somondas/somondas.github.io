@@ -460,7 +460,10 @@ div.tricks{background-color: #add8e6; border-radius: 10px;box-shadow: 0 4px 8px 
 .close-crs{visibility: hidden;}
 .buy-link{color: #2196F3; font-weight: bold;}
 .buy-link:hover{text-decoration: underline;}
-
+::selection{
+  background: aqua;
+  color: blue;
+}
 
 
 
